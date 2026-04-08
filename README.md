@@ -18,13 +18,14 @@ This project explores state as a **time-based structure**, enabling undo/redo fu
 
 ## Project Structure
 
+```bash
 src/
 ├── components/
 │ ├── Todos.jsx # Main state container
 │ ├── TodosForm.jsx # Input component
 │ └── TodoItem.jsx # Individual todo item
-├── hooks/
-│ └── useUndoRedo.js # (optional) custom hook for history
+└── hooks/ useUndoRedo.js # (optional) custom hook for history
+```
 
 ---
 
@@ -69,10 +70,12 @@ Action → past.push(present) → present updated → future cleared
 
 ### State Timeline Visualization
 
+```bash
 [ Past Stacks ]  <---  ( Present )  --->  [ Future Stacks ]
    [t-2, t-1]            [ t ]               [t+1, t+2]
       ↑                    |                    ↑
     Undo                 Current               Redo
+```
 
 ### Core State Principles
 
@@ -122,4 +125,3 @@ Visualization of state transitions
 Jungae Lee
 Korea National University of Arts
 jungae1000@karts.ac.kr
-
