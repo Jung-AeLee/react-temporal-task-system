@@ -125,3 +125,10 @@ Visualization of state transitions
 Jungae Lee
 Korea National University of Arts
 jungae1000@karts.ac.kr
+
+---
+
+## Distribution Model
+
+The commercial distribution contains modules and optimizations that are not included in this repository.
+https://insightful3530.gumroad.com/l/TemporalTask
