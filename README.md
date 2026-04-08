@@ -117,7 +117,9 @@ Visualization of state transitions
 
 ---
 
-## License
+## Author
 
-MIT License
+Jungae Lee
+Korea National University of Arts
+jungae1000@karts.ac.kr
 
